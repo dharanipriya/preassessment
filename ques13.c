@@ -8,7 +8,7 @@ clrscr();
 printf(" Enter the num of disk: ");
 scanf("%d",&a);
 printf("\n tower of honai %d number of disk : ", a);
-hanoi('A','B','C', a);
+hanoi1('A','B','C', a);
 getch();
 }
 void hanoi1(char from,char to,char other,int b)
